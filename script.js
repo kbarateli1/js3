@@ -10,33 +10,33 @@
 // 5. შექმენით ცვლადი და მიანიჭეთ ცარიელი მასივი, შემდეგ დაწერეთ Loop ( for ან while ან do while ) 1 დან 1000 - მდე 
 // ამ მასივში ჩაწერეთ ინდექსი გამრავლებული ინდექსზე (i * i); გამოიყენეთ  push მეთოდი
 
-1.
+// 1.
 
 const currentDay = new Date().getDay();
 
         switch(currentDay){
         case 0:
-        console.log(currentDay === "Sunday");
+        console.log("currentDay === Sunday");
         break;
         case 1:
-        console.log(currentDay === "Monday");
+        console.log("currentDay === Monday");
         break;
         case 2:
-        console.log(currentDay === "Tuesday");
+        console.log("currentDay === Tuesday");
         break;
         case 3:
-        console.log(currentDay === "Wednesday");
+        console.log("currentDay === Wednesday");
         break;
         case 4:
-        console.log(currentDay === "Thursday");
+        console.log("currentDay === Thursday");
         break;
         case 5:
-        console.log(currentDay === "Friday");
+        console.log("currentDay === Friday");
         break;
         case 6:
-        console.log(currentDay === "Saturday");
+        console.log("currentDay === Saturday");
         default:
-        console.log(currentDay === 'other day');
+        console.log("currentDay === other day");
         break;
  }
 
