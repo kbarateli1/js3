@@ -12,41 +12,41 @@
 
 // 1.
 
-const currentDay = new Date().getDay();
+// const currentDay = new Date().getDay();
 
-        switch(currentDay){
-        case 0:
-        console.log("currentDay === Sunday");
-        break;
-        case 1:
-        console.log("currentDay === Monday");
-        break;
-        case 2:
-        console.log("currentDay === Tuesday");
-        break;
-        case 3:
-        console.log("currentDay === Wednesday");
-        break;
-        case 4:
-        console.log("currentDay === Thursday");
-        break;
-        case 5:
-        console.log("currentDay === Friday");
-        break;
-        case 6:
-        console.log("currentDay === Saturday");
-        default:
-        console.log("currentDay === other day");
-        break;
- }
+//         switch(currentDay){
+//         case 0:
+//         console.log("Sunday");
+//         break;
+//         case 1:
+//         console.log("Monday");
+//         break;
+//         case 2:
+//         console.log("Tuesday");
+//         break;
+//         case 3:
+//         console.log(" Wednesday");
+//         break;
+//         case 4:
+//         console.log("Thursday");
+//         break;
+//         case 5:
+//         console.log("Friday");
+//         break;
+//         case 6:
+//         console.log("Saturday");
+//         default:
+//         console.log("other day");
+//         break;
+//  }
 
 
 
 
 // 2
-// for (let i = 0; i <= 100; i++) {
-//     console.log(i);
-//   }
+for (let i = 0; i <100; i++) {
+    console.log(i);
+}
 
 // 3
 
