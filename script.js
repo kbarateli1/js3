@@ -14,67 +14,67 @@
 
 const currentDay = new Date().getDay();
 
-switch(currentDay){
-    case 0:
-        console.log("Sunday");
+        switch(currentDay){
+        case 0:
+        console.log(currentDay === "Sunday");
         break;
-    case 1:
-        console.log("Monday");
+        case 1:
+        console.log(currentDay === "Monday");
         break;
-    case 2:
-        console.log("Tuesday");
+        case 2:
+        console.log(currentDay === "Tuesday");
         break;
-    case 3:
-        console.log("Wednesday");
+        case 3:
+        console.log(currentDay === "Wednesday");
         break;
-    case 4:
-        console.log("Thursday");
+        case 4:
+        console.log(currentDay === "Thursday");
         break;
-    case 5:
-        console.log("Friday");
+        case 5:
+        console.log(currentDay === "Friday");
         break;
-    case 6:
-        console.log("Saturday");
-    default:
-        console.log('other day');
+        case 6:
+        console.log(currentDay === "Saturday");
+        default:
+        console.log(currentDay === 'other day');
         break;
-}
+ }
 
 
 
 
 // 2
-for (let i = 0; i <= 100; i++) {
-    console.log(i);
-  }
+// for (let i = 0; i <= 100; i++) {
+//     console.log(i);
+//   }
 
 // 3
 
-let i=0;
-while(i<=50){
-    console.log(i);
-    i++
-}
+// let i=0;
+// while(i<=50){
+//     console.log(i);
+//     i++
+// }
 
 
 
 // 4
 
-let j=0;
-do{
-    console.log(j);
-    j++;
-}while(j<=150);
+// let j=0;
+// do{
+//     console.log(j);
+//     j++;
+// }while(j<=150);
 
-// 5s
+// // 5s
 
 
 
-let myarr = [i];
-for (i = 0; i <= 100; i++) {
-  i = i * i;
+// let myarr = [i];
+// for (i = 0; i <= 100; i++) {
+//   i = i * i;
 
-  arr.push(i);
-}
+//   arr.push(i);
+// }
 
-console.log(arr);
+// console.log(arr);
